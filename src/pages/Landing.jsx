@@ -13,16 +13,8 @@ export default function Example() {
     return (
         <div className="relative overflow-hidden bg-white">
             <div className="mx-auto max-w-7xl">
-                <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
-                    <svg
-                        className="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
-                        fill="currentColor"
-                        viewBox="0 0 100 100"
-                        preserveAspectRatio="none"
-                        aria-hidden="true"
-                    >
-                        <polygon points="50,0 100,0 50,100 0,100" />
-                    </svg>
+                <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-18">
+                   
 
                     <Popover>
                         <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
