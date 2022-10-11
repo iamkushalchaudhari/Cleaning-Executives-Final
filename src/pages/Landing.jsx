@@ -37,6 +37,7 @@ export default function Example() {
                                                 src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png"
                                             />
                                         </a>
+                                        {/* Three lines menu option in small window  */}
                                         <div className="flex items-center -mr-2 md:hidden">
                                             <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                                 <span className="sr-only">Open main menu</span>
@@ -112,7 +113,8 @@ export default function Example() {
                     <main className="px-4 mx-auto mt-10 tracking-wide max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                                <span className="block xl:inline">Way to enrich your</span>{' '}
+                                <span className="block text-indigo-600 xl:inline">Cleaning Executives </span>
+                                <span className="block xl:inline">Way to enrich your </span>
                                 <span className="block text-indigo-600 xl:inline">life and surroundings.</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
