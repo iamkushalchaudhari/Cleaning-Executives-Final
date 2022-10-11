@@ -7,8 +7,9 @@ export default function Example () {
                     <span className="relative inline-block">You miss 100% of the shots you don't take</span>
                 </h2>
             </div>
+          
             <div className="max-w-lg space-y-3 sm:mx-auto lg:m-w-xl">
-
+                {/* Feature No.1 */}
                 <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
                     <div className="mr-2">
                         <svg 
@@ -26,13 +27,102 @@ export default function Example () {
                     </div>
                     <span>Empty the Garbage Bins before you Notice.</span>
                 </div>
+            
+                {/* Feature No.2 */}
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                    <div className="mr-2">
+                        <svg 
+                        className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
+                        stroke="currentColor"
+                        viewBox="0 0 52 52">
+                       
+                       <polygon 
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"/>
+                        </svg>
+                    </div>
+                    <span>Nor Dieseases, nor Odour.</span>
+                </div>
+
+                {/* Feature No.3 */}
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                    <div className="mr-2">
+                        <svg 
+                        className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
+                        stroke="currentColor"
+                        viewBox="0 0 52 52">
+                       
+                       <polygon 
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"/>
+                        </svg>
+                    </div>
+                    <span>You can Earn Rewards from Waste! Yes</span>
+                </div>
+
+                {/* Feature No.4 */}
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                    <div className="mr-2">
+                        <svg 
+                        className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
+                        stroke="currentColor"
+                        viewBox="0 0 52 52">
+                       
+                       <polygon 
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"/>
+                        </svg>
+                    </div>
+                    <span>Get Notified What's New.</span>
+                </div>
+
+                {/* Feature No.5 */}
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                    <div className="mr-2">
+                        <svg 
+                        className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
+                        stroke="currentColor"
+                        viewBox="0 0 52 52">
+                       
+                       <polygon 
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"/>
+                        </svg>
+                    </div>
+                    <span>Yesterday you said, Tomorrow we do.</span>
+                </div>
+
+                {/* Feature No.6 */}
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                    <div className="mr-2">
+                        <svg 
+                        className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
+                        stroke="currentColor"
+                        viewBox="0 0 52 52">
+                       
+                       <polygon 
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"/>
+                        </svg>
+                    </div>
+                    <span>What you Think, We Become.</span>
+                </div>
             </div>
-
-
-
         </div>
     );
-
-
-
 };
