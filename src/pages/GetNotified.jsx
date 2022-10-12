@@ -1,5 +1,5 @@
 export default function Example (){
-    (
+   return (
         <div className="bg-gray-50">
             <div className="px-4 py-12 mx-auto tracking-wide max-w-7xl sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lgpx-8">
                 <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -27,9 +27,5 @@ export default function Example (){
                 </div>
             </div>
         </div>
-
-
-
     );
-
 };
