@@ -10,7 +10,7 @@ export default function Example () {
           
             <div className="max-w-lg space-y-3 sm:mx-auto lg:m-w-xl">
                 {/* Feature No.1 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:text-white hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
@@ -29,7 +29,7 @@ export default function Example () {
                 </div>
             
                 {/* Feature No.2 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400 hover:text-white">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
@@ -48,7 +48,7 @@ export default function Example () {
                 </div>
 
                 {/* Feature No.3 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400 hover:text-white">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
@@ -67,7 +67,7 @@ export default function Example () {
                 </div>
 
                 {/* Feature No.4 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400 hover:text-white">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
@@ -86,7 +86,7 @@ export default function Example () {
                 </div>
 
                 {/* Feature No.5 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400 hover:text-white">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
@@ -105,7 +105,7 @@ export default function Example () {
                 </div>
 
                 {/* Feature No.6 */}
-                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+                <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110 hover:bg-indigo-400 hover:text-white">
                     <div className="mr-2">
                         <svg 
                         className="w-6 h-6 text-indigo-400 sm:w-8 sm:h-8"
