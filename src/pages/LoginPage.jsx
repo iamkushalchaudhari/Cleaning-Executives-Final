@@ -7,12 +7,19 @@ export default function Example() {
                     <div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
                         <img
                             src="https://drive.google.com/uc?export=view&id=1aNoMKWJTJzHUUwmgLfMP4J-js3KhS3dP"
-                            class="w-full"
+                            class=""
                             alt=""
                         />
                     </div>
                     <div class="w-[26rem] lg:ml-20 border rounded-lg bg-slate-50">
-                        <h1 className="py-4 text-4xl font-semibold text-center">Sign Up</h1>
+                    <div className="flex flex-row items-center justify-center">
+                    <img
+                        className=""
+                        src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png"
+                        alt=""/>
+                        <h1 className="text-2xl font-semibold tracking-wide text-indigo-500 ">Cleaning Executives</h1>
+                        </div>
+                        <h1 className="pb-4 text-4xl font-semibold text-center">Sign Up</h1>
                         <form>
                             {/* Email input  */}
                             <div class="mb-6 justify-center items-center flex">
