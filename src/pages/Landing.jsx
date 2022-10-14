@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
     { name: 'Sell or Buy', href: '#' },
@@ -44,9 +45,9 @@ export default function Example() {
                                             {item.name}
                                         </a>
                                     ))}
-                                    <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                                        Log in
-                                    </a>
+                                    <Link to='/login' className="font-semibold text-indigo-600 hover:text-indigo-500"> 
+                                        Log In
+                                    </Link>
                                 </div>
                             </nav>
                         </div>
@@ -91,12 +92,13 @@ export default function Example() {
                                             </a>
                                         ))}
                                     </div>
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to='/login'
+                                        // href="#"
                                         className="block w-full px-5 py-3 font-medium text-center text-indigo-600 bg-gray-50 hover:bg-gray-100"
                                     >
                                         Log in
-                                    </a>
+                                    </Link>
                                 </div>
                             </Popover.Panel>
                         </Transition>
