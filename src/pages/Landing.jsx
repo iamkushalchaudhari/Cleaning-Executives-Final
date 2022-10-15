@@ -19,7 +19,7 @@ export default function Example() {
 
                     <Popover>
                         <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
-                            <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+                            <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start " aria-label="Global">
                                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                                     <div className="flex items-center justify-between w-full md:w-auto">
                                         <a href="#">
@@ -117,7 +117,7 @@ export default function Example() {
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
                                     <a
-                                        href="#"
+                                        href="/getstarted"
                                         className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                                     >
                                         Get started

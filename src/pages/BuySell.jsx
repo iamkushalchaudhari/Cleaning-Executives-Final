@@ -1,6 +1,41 @@
 export default function Example() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div>
+    
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow drop-shadow-md ">
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="/" class="flex items-center">
+        <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
+        <span class="self-center text-xl font-semibold whitespace-nowrap ">Cleaning Executives</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white lg:font-semibold lg:text-base tracking-wide ">
+        <li>
+          <a href="/" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-indigo-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2 lg:py-10">
       <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
        <div>
         <div className="flex">
@@ -58,7 +93,7 @@ export default function Example() {
           </div>
         </div>
         
-        <div className="flex pt-6">
+        <div className="flex pt-12">
           <div className="pt-1 mr-6 text-center">
             <div className="px-2 pb-1 mb-1 border-b border-gray-400">
               <p className="text-sm text-blue-gray-700">Jul</p>
@@ -172,7 +207,7 @@ export default function Example() {
             </div>
           </div>
 
-          <div className="flex pt-6">
+          <div className="flex pt-10">
             <div className="pt-1 mr-6 text-center">
               <div className="px-2 pb-1 mb-1 border-b border-gray-400">
                 <p className="text-sm text-blue-gray-700">April</p>
@@ -285,7 +320,7 @@ export default function Example() {
             </div>
           </div>
 
-          <div className="flex pt-6">
+          <div className="flex pt-12">
             <div className="pt-1 mr-6 text-center">
               <div className="px-2 pb-1 mb-1 border-b border-gray-400">
                 <p className="text-sm text-blue-gray-700">Feb</p>
@@ -341,6 +376,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
