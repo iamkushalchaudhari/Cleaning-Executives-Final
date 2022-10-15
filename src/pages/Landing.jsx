@@ -125,7 +125,7 @@ export default function Example() {
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
-                                        href="#"
+                                        href="/addbin"
                                         className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md shadow hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                                     >
                                         Add Bin
