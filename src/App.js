@@ -4,6 +4,8 @@ import Landing from './pages/Landing';
 import GetNotified from './pages/GetNotified';
 import LoginPage from './pages/LoginPage';
 import BuySell from './pages/BuySell';
+import GetStarted from './pages/GetStarted';
+import AddBin from "./pages/AddBin";
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 
 export default function App() {
@@ -11,11 +13,12 @@ export default function App() {
     <Router>
       <Routes>
         <Route exact path ='/' element={<><Landing/> <Features/> <GetNotified/></>}/>
-        <Route exact path ='/' element={<Features/>}/>
         <Route exact path ='/features' element={<Features/>} />
         <Route exact path ='/getnotified' element={<GetNotified/>} /> 
         <Route exact path ='/login' element={<LoginPage/>} /> 
         <Route exact path ='/buysell' element={<BuySell/>} /> 
+        <Route exact path ='/getstarted' element={<GetStarted/>} /> 
+        <Route exact path ='/addbin' element={<AddBin/>} /> 
       </Routes>     
     </Router>
     
