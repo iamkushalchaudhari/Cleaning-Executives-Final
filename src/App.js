@@ -6,7 +6,8 @@ import LoginPage from './pages/LoginPage';
 import BuySell from './pages/BuySell';
 import GetStarted from './pages/GetStarted';
 import AddBin from "./pages/AddBin";
-import Complain from './pages/Complian'
+import Complain from './pages/Complian';
+import DriverInterface from './pages/DriverInterface';
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route exact path ='/getstarted' element={<GetStarted/>} /> 
         <Route exact path ='/addbin' element={<AddBin/>} /> 
         <Route exact path ='/complain' element={<Complain/>} /> 
+        <Route exact path='/driverinterface' element={<DriverInterface/>}/>
       </Routes>     
     </Router>
     
