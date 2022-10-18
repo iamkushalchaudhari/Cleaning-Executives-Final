@@ -7,7 +7,7 @@ const navigation = [
     { name: 'Sell or Buy', href: '/buysell' },
     { name: 'Features', href: '/features' },
     { name: 'Policy', href: '#' },
-    { name: 'About Us', href: '#' },
+    { name: 'Complain', href: '/complain' },
 ]
 
 export default function Example() {
