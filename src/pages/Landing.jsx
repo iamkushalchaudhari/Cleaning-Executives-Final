@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 
 const navigation = [
     { name: 'Sell or Buy', href: '/buysell' },
-    { name: 'Features', href: '/features' },
     { name: 'Policy', href: '#' },
     { name: 'Complain', href: '/complain' },
+    { name: 'About Us', href: '/' },
 ]
 
 export default function Example() {

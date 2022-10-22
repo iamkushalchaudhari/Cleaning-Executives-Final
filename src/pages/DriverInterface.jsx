@@ -1,41 +1,42 @@
 export default function Example() {
-    return(
-        <div>
-             <div class="w3-card-4 w3-margin w3-white">
-          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SuhYzEDPunVhVCimhDAjrvH_mPd9h38&ehbc=2E312F" width="100%" height="280"></iframe>
-          <div class="w3-container">
-            <h3><b>LOCATION</b></h3>
-            <h5>
-              Title description, <span class="w3-opacity">April 7, 2014</span>
-            </h5>
-          </div>
-
-          <div class="w3-container">
-            <p>
-              Mauris neque quam, fermentum ut nisl vitae, convallis maximus
-              nisl. Sed mattis nunc id lorem euismod placerat. Vivamus
-              porttitor magna enim, ac accumsan tortor cursus at. Phasellus
-              sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-              tellus ut rutrum. Sed vitae justo condimentum, porta lectus
-              vitae, ultricies congue gravida diam non fringilla.
-            </p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p>
-                  <button class="w3-button w3-padding-large w3-white w3-border">
-                    <b>READ MORE »</b>
-                  </button>
-                </p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p>
-                  <span class="w3-padding-large w3-right"><b>Comments </b> <span class="w3-tag">0</span></span>
-                </p>
-              </div>
-            </div>
+  return (
+   <div className="flex flex-col items-center justify-center py-20">
+   <div className="border-4 rounded-lg border-x-black w-96">
+      <nav class="bg-white px-2 sm:px-4 py-2.5 border-t rounded-lg">
+        <div class=" flex flex-wrap justify-between items-center mx-auto">
+          <a href="/" class="flex items-center">
+            <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+            <span class="self-center text-xl font-semibold whitespace-nowrap ">Cleaning Executives</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="flex flex-col p-4 mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:bg-white lg:font-semibold lg:text-base tracking-wide ">
+              <li>
+                <a href="/" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
+              </li>
+            </ul>
           </div>
         </div>
-        </div>
+      </nav>
 
-    );
+     
+      <div>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SuhYzEDPunVhVCimhDAjrvH_mPd9h38&ehbc=2E312F" width="100%" height="400"></iframe>
+
+      </div>
+    </div>
+    </div>
+  );
 };
