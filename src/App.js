@@ -8,6 +8,7 @@ import GetStarted from './pages/GetStarted';
 import AddBin from "./pages/AddBin";
 import Complain from './pages/Complian';
 import DriverInterface from './pages/DriverInterface';
+import Scroll from './pages/Scroll';
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
         <Route exact path ='/addbin' element={<AddBin/>} /> 
         <Route exact path ='/complain' element={<Complain/>} /> 
         <Route exact path='/driverinterface' element={<DriverInterface/>}/>
+        <Route exact path ='/scroll' element={<Scroll/>} /> 
       </Routes>     
     </Router>
     
