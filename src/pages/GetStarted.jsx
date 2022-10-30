@@ -43,7 +43,7 @@ export default function Example() {
                  
                   <button type="submit" class="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-base px-5 py-2.5 text-center ">Create an account</button>
                   <p class="text-base font-light text-gray-500 ">
-                      Already have an account? <a href="#" class="font-medium text-primary-600 hover:underline text-indigo-600">Login here</a>
+                      Already have an account? <a href="/login" class="font-medium text-primary-600 hover:underline text-indigo-600">Login here</a>
                   </p>
               </form>
           </div>
