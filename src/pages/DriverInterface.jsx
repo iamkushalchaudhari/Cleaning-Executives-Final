@@ -13,6 +13,9 @@ export default function Example() {
                 <div>
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SuhYzEDPunVhVCimhDAjrvH_mPd9h38&ehbc=2E312F" width="299" height="480"></iframe>
                 </div>
+                <div className="py-2 pl-2">
+                    <p className="text-xl font-semibold tracking-wide">Total Time Required: 02:00:00 </p>
+                </div>
                 <div className="pt-2 pl-2">
                     <ol class="relative border-l border-indigo-400">
                         <li class="mb-10 ml-4">
