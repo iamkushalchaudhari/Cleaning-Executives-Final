@@ -4,7 +4,7 @@ export default function Example() {
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <a href="/" class="flex items-center mb-2 text-2xl font-semibold text-gray-900 ">
                     <img class="w-12 h-12 mr-2" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png" alt="logo" />
-                    Cleaning Executives
+                    Garbage Collectors
                 </a>
                 <div class="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0 ">
                     <div class="p-6 space-y-2 md:space-y-4 sm:p-8">

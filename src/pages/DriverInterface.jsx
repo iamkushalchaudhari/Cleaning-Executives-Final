@@ -6,7 +6,7 @@ export default function Example() {
                     <div class=" flex flex-wrap justify-between items-center mx-auto">
                         <a href="/" class="flex items-center">
                             <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                            <span class="self-center text-xl font-semibold whitespace-nowrap ">Cleaning Executives</span>
+                            <span class="self-center text-xl font-semibold whitespace-nowrap ">Garbage Collectors</span>
                         </a>
                     </div>
                 </nav>

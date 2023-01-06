@@ -107,7 +107,7 @@ export default function Example() {
                     <main className="px-4 mx-auto mt-10 tracking-wide max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                                <span className="block text-indigo-600 xl:inline">Cleaning Executives </span>
+                                <span className="block text-indigo-600 xl:inline">Garbage Collectors </span>
                                 <span className="block xl:inline">Way to enrich your </span>
                                 <span className="block text-indigo-600 xl:inline">life and surroundings.</span>
                             </h1>
@@ -139,7 +139,7 @@ export default function Example() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     className="object-cover w-full h-56 sm:h-72 md:h-96 lg:h-full lg:w-full"
-                    src="https://drive.google.com/uc?export=view&id=1aNoMKWJTJzHUUwmgLfMP4J-js3KhS3dP"
+                    src="https://drive.google.com/uc?export=view&id=1U9ag-6KpRLSec2vdT0V1s8uxpLpBrn73"
                     alt=""
                 />
             </div>
