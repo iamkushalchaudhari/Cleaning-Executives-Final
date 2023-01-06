@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './pages/Navbar'
 import Features from './pages/Features';
 import Landing from './pages/Landing';
 import GetNotified from './pages/GetNotified';
@@ -19,10 +20,10 @@ export default function App() {
         <Route exact path ='/features' element={<Features/>} />
         <Route exact path ='/getnotified' element={<GetNotified/>} /> 
         <Route exact path ='/login' element={<LoginPage/>} /> 
-        <Route exact path ='/buysell' element={<BuySell/>} /> 
+        <Route exact path ='/buysell' element={<><Navbar/> <BuySell/></>} /> 
         <Route exact path ='/getstarted' element={<GetStarted/>} /> 
-        <Route exact path ='/addbin' element={<AddBin/>} /> 
-        <Route exact path ='/complain' element={<Complain/>} /> 
+        <Route exact path ='/addbin' element={<><Navbar/> <AddBin/></>} /> 
+        <Route exact path ='/complain' element={<><Navbar/> <Complain/></>} /> 
         <Route exact path='/driverinterface' element={<DriverInterface/>}/>
         <Route exact path='/timer' element={<Timer/>}/>
       </Routes>     

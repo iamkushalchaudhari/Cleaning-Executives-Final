@@ -6,7 +6,7 @@ export default function Example() {
         <div class="flex justify-center items-center flex-wrap h-full text-gray-800">
           <div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
             <img
-              src="https://drive.google.com/uc?export=view&id=1aNoMKWJTJzHUUwmgLfMP4J-js3KhS3dP"
+              src="https://drive.google.com/uc?export=view&id=1U9ag-6KpRLSec2vdT0V1s8uxpLpBrn73"
               class=""
               alt=""
             />
@@ -15,7 +15,7 @@ export default function Example() {
             <div className="flex flex-col items-center justify-center mx-auto lg:pl-16 lg:py-0">
             <a href="/" class="flex items-center mb-2 text-2xl font-semibold text-gray-900 ">
           <img class="w-12 h-12 mr-2" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-dustbin-ux-and-ui-flatart-icons-solid-flatarticons.png" alt="logo"/>
-          Cleaning Executives    
+          Garbage Collectors  
       </a>
              
             </div>
